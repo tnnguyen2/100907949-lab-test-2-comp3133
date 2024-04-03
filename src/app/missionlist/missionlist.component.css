@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-container {
+  display: flex;
+  align-items: center;
+  border: 4px solid black;
+  margin-bottom: 15px;
+  max-width: 700px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.mission-info {
+  margin-bottom: 50px;
+}
+
+.mission-patch {
+  width: 100px;
+  margin-right: 150px;
+}
+
+.mission-name {
+  font-size: 40px;
+}
+
+.launch-year {
+  font-size: 25px;
+}
+
+.show-details {
+  font-size: 20px;
+}
+
+.mission-details {
+  font-size: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 35px;
+}
+.total-container {
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: #040b1c;
+}
